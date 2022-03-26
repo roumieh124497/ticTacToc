@@ -1,0 +1,152 @@
+@import url('http://fonts.cdnfonts.com/css/new-super-mario-font-u');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(49, 48, 48);
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: aliceblue;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+h2 {
+  position: absolute;
+  left: 48%;
+  margin-top: 35px;
+  color: aliceblue;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+.score {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  border: 3px solid white;
+  color: white;
+  border-radius: 2px;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+.x-score {
+  margin-bottom: 12px;
+  margin-right: 17px;
+}
+
+.replay-btn {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+.play-again {
+  display: block;
+  padding: 10px;
+  background: rgb(49, 48, 48);
+  border: 3px solid white;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.22rem;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+.restart {
+  padding: 10px;
+  padding-inline: 20px;
+  margin-top: 6px;
+  background: rgb(49, 48, 48);
+  border: 3px solid white;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+.container-holds {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: fit-content;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  background-color: white;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  margin-left: -130px;
+  margin-top: -140px;
+}
+.button {
+  text-align: center;
+  height: 90px;
+  width: 90px;
+  background: rgb(49, 48, 48);
+  border-style: none;
+  color: aliceblue;
+  font-size: 3.9rem;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+.winning-h2 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: black;
+  font-family: 'New Super Mario Font U', sans-serif;
+}
+@media screen and (max-width: 1181px) {
+  .replay-btn {
+    left: 20%;
+  }
+  .score {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 946px) {
+  .replay-btn {
+    left: 15%;
+  }
+  .score {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 777px) {
+  .replay-btn {
+    left: 10%;
+  }
+  .score {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .replay-btn {
+    left: 5%;
+  }
+  .score {
+    left: 5%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .replay-btn {
+    top: 60%;
+    left: 55%;
+  }
+  .score {
+    top: 60%;
+    left: 29%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .score {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .score {
+    top: 60%;
+    left: 20%;
+  }
+}
+@media screen and (max-width: 372px) {
+  .score {
+    left: 15%;
+  }
+}
